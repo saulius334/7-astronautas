@@ -1,12 +1,24 @@
 header {
     width: 800px;
     margin: auto;
+    margin-bottom: 30px;
 }
 main {
     width: 800px;
     margin: auto;
+    margin-bottom: 30px
 }
 footer {
     width: 800px;
     margin: auto;
+    margin-bottom: 30px
+}
+header > img {
+    background-color: blue;
+}
+nav a {
+    background-color: aqua;
+}
+main > img {
+    background-color: aquamarine;
 }
