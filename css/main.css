@@ -107,3 +107,9 @@ footer div {
 .fa-linkedin {
     color:#3B5998;
 }
+
+.line {
+    width: 112px;
+    height: 47px;
+    border-bottom: 5px solid #57367C;
+}
