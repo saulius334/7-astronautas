@@ -29,7 +29,6 @@ main > div {
     float: left;
 }
 main div div a {
-    font-weight:;
     display: inline-block;
     margin-top: 40px;
     margin-left: 30px;
@@ -40,10 +39,12 @@ main div div a {
     text-decoration: none;
     border-style: solid;
     border-color: #57367C;
-    padding: 10px;
-    padding-inline: 25px;
+    padding: 10px 25px;
     border-radius: 30px;
     transition: 0.3s;
+}
+main a:hover {
+    box-shadow:0px 10px 10px #0003;
 }
 main div h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,6 +57,13 @@ main div h2 {
     font-size: 55px;
     letter-spacing: -2px;
 }
+hr {
+    color: #57367C;
+    
+    margin: 0;
+    float: left;
+    width: 30%;
+}
 main div p {
     color: #777;
 }
@@ -65,8 +73,11 @@ main div p {
 main img {
     float: right;
     width: 60%;
+    transition: all 10s;
 }
-
+main > img:hover {
+    transform: rotate(720deg);
+}
 main div a:hover {
     color: black;
     background-color: white;
@@ -80,34 +91,20 @@ main div a:hover {
     color: white;
 }
 footer div {
-    margin-top: 50px;
+    display: inline-block;
 }
-.footdiv1 {
-    float:left;
-}
-.footdiv2 {
+footer p {
     float:right;
 }
-.fa {
-    padding: 10px;
-    font-size: 15px;
-    text-decoration: none;
+footer div a {
+    float: left;
+    font-size: 25px;
+    color: #aaa;
+    transition: 0.5s;
 }
-.fa-facebook {
-    color: #3B5998;
+footer div a + a {
+    margin-left: 10px;
 }
-.fa-twitter {
-    color: gainsboro;
-}
-.fa-instagram {
-    color: slateblue;
-}
-.fa-linkedin {
-    color:#3B5998;
-}
-
-.line {
-    width: 100px;
-    height: 30px;
-    border-bottom: 5px solid #57367C;
+footer div a:hover {
+    color: blue;
 }
